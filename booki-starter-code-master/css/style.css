@@ -1,7 +1,41 @@
-/****** General ***********/
+/* General */
+
 * {
     font-family: 'Raleway', sans-serif;
 }
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 79px;
+}
+
+.logo img {
+    width: 61px;
+    height: 19px;
+}
+
+.menu {
+    font-size: 16px
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li:hover {
+    border-top: solid 2px #0065FC;
+    color : #0065FC;    
+}
+
+nav li {
+    padding: 35px 50px;
+}
+
 
 :root {
     --main-color: #0065FC;
