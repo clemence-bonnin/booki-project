@@ -243,12 +243,12 @@ form.recherche {
     font-size: 14px;
 }
 
-.neutral-star {
-    color: var(--main-bg-color)
-}
-
 .fa-solid {
     color: var(--main-color);
+}
+
+.neutral-star {
+    color: var(--main-bg-color)
 }
 
 
