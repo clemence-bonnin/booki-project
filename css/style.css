@@ -421,10 +421,6 @@ footer {
     display: flex;
 }
 
-.footer-zone {
-    flex: 1;
-}
-
 .content-footer {
     width: 100%;
     padding: 20px 0px 0px 20px;
@@ -653,10 +649,6 @@ nav li:hover {
 footer {
     padding-bottom: 10px;
     margin-top: 35px;
-}
-
-.footer-zone {
-    width: 100%;
 }
 
 .footer-group {
