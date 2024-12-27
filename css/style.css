@@ -61,6 +61,10 @@ a {
     margin: 0;
 }
 
+.fa-solid {
+    color: var(--main-color);
+}
+
 
 /***** HEADER *****/
 
@@ -126,6 +130,7 @@ form.recherche {
     border: solid 1px var(--main-bg-color);
     border-radius: 15px 0px 0px 15px;
     padding: 15px;
+    color: black;
 }
 
 .champ-recherche {   
@@ -195,6 +200,12 @@ form.recherche {
     background-color : #DEEBFF;    
 }
 
+.texte-filtre {
+    font-size: 18px;
+    font-weight: 600;
+    margin : 0;
+}
+
 .informations p {
     margin : 0;
 }
@@ -241,10 +252,6 @@ form.recherche {
 .euro {
     font-weight: 500;
     font-size: 14px;
-}
-
-.fa-solid {
-    color: var(--main-color);
 }
 
 .neutral-star {
@@ -303,8 +310,11 @@ form.recherche {
     margin-bottom: 8px;   
 }
 
-.plus h4 {
+.plus p {
     margin-top: 30px; 
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 
@@ -399,10 +409,11 @@ form.recherche {
 
 /***** FOOTER *****/
 
-.section-footer {
+footer {
     width: 100%;
     background-color: var(--main-bg-color);
     margin-top: 65px;
+    display: flex;
 }
 
 .footer-group {
@@ -598,7 +609,7 @@ nav li:hover {
     margin-top: 15px;
 }
 
-.plus h4 {   
+.plus p {   
     margin-top: 15px; 
 }
 
@@ -639,7 +650,7 @@ nav li:hover {
     margin-bottom: 20px; 
 } 
 
-.section-footer {
+footer {
     padding-bottom: 10px;
     margin-top: 35px;
 }

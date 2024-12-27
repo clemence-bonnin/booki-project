@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer" >
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
@@ -21,7 +21,7 @@
 
         <!-- HEADER -->
 
-        <header class="header">
+        <header>
                 <div class="logo">
                     <a href="index.html"><img src="images/logo/Booki.png" alt="Logo Booki"></a>
                 </div>
@@ -45,8 +45,8 @@
                     <p>En plein centre-ville ou en pleine nature</p>
                 </div>
 
-                <form method="get" action="" class="recherche">
-                    <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
+                <form method="get" class="recherche">
+                    <i class="fa-solid fa-location-dot"></i>
                     <input type="text" class="champ-recherche" name="ville" id="ville" placeholder="Marseille, France">
                     <button type="submit" class="bouton-recherche">
                         <span class="texte-recherche">Rechercher</span>
@@ -55,7 +55,7 @@
                 </form>
 
                 <div class="filtres">
-                    <h4>Filtres</h4>
+                    <span class="texte-filtre">Filtres</span>
                     <div class="boutons-filtres">
                         <button><i class="fa-solid fa-money-bill-wave"></i>Économique</button>
                         <button><i class="fa-solid fa-person"></i>Familial</button>
@@ -210,7 +210,7 @@
 
                     <div class="plus">
                         <a href="#">
-                            <h4>Afficher Plus</h4>
+                            <p>Afficher Plus</p>
                         </a>
                     </div>
             
@@ -348,15 +348,10 @@
         <!-- FOOTER -->
 
         <footer>
-            
-            <div class="footer">
 
-                <section class="section-footer">
+            <div class="footer-group">
 
-                    <div class="footer-group">
-
-                        <a href="#">
-                            <article class="footer-zone">
+                <article class="footer-zone">
                                 <div class="content-footer">
                                     <h4>À propos</h4>
                                     <ul>
@@ -365,11 +360,9 @@
                                         <li><a href="#">Données et confidentialité</a></li>
                                     </ul>
                                 </div>
-                            </article>
-                        </a>
-
-                        <a href="#">
-                            <article class="footer-zone">
+                </article>
+                       
+                <article class="footer-zone">
                                 <div class="content-footer">
                                     <h4>Nos hébergements</h4>
                                     <ul>
@@ -377,11 +370,9 @@
                                         <li><a href="#">Proposer votre hôtel</a></li>
                                     </ul>
                                 </div>
-                            </article>
-                        </a>
-
-                        <a href="#">
-                            <article class="footer-zone">
+                </article>
+                        
+                <article class="footer-zone">
                                 <div class="content-footer">
                                     <h4>Assistance</h4>
                                     <ul>
@@ -389,12 +380,7 @@
                                         <li><a href="#">Nous contacter</a></li>
                                     </ul>
                                 </div>
-                            </article>
-                        </a>
-
-                    </div>
-            
-                </section>
+                </article>
 
             </div>
 
